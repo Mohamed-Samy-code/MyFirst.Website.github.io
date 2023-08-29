@@ -21,7 +21,6 @@ html {
 
 body {
     font-family: "Work Sans", sans-serif;
-    width: fit-content;
 }
 
 .container {
@@ -208,13 +207,8 @@ i#gem2 {
 
 /* Start Landing Section */
 .landing {
-    width: fit-content;
-    height: calc(100vh - 64px);
-}
-.landing {
     width: 100%;
     height: calc(100vh - 64px);
-    min-width: 390px;
 }
 .landing img {
     position: absolute;
@@ -412,7 +406,7 @@ i#gem2 {
 }
 
 .services .container .services-content .col:hover .image::after {
-    width: 390px;
+    width: 400px;
     transition: all 0.4s 700ms cubic-bezier(0, 0, 0.6, 1);
 }
 
@@ -528,9 +522,9 @@ i#gem2 {
 .about .about-content .image::after {
     content: "";
     position: absolute;
-    right: -125px;
+    right: -95px;
     top: -40px;
-    width: 81px;
+    width: 55px;
     height: 250px;
     border-left: 80px solid var(--main-color);
     border-bottom: 80px solid var(--main-color);
@@ -556,8 +550,8 @@ i#gem2 {
 
 .about .about-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
-    grid-template-rows: repeat(auto-fill,minmax(400px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-template-rows: repeat(auto-fill,minmax(300px,1fr));
 }
 
 .about .about-content .text {
