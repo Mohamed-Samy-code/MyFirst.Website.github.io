@@ -406,7 +406,7 @@ i#gem2 {
 }
 
 .services .container .services-content .col:hover .image::after {
-    width: 400px;
+    width: 390px;
     transition: all 0.4s 700ms cubic-bezier(0, 0, 0.6, 1);
 }
 
@@ -550,8 +550,8 @@ i#gem2 {
 
 .about .about-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(1fr,390px));
-    grid-template-rows: repeat(auto-fill,minmax(1fr,390px));
+    grid-template-columns: repeat(auto-fill,minmax(390px,1fr));
+    grid-template-rows: repeat(auto-fill,minmax(390px,1fr));
 }
 
 .about .about-content .text {
