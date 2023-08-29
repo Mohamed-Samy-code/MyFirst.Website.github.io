@@ -21,6 +21,7 @@ html {
 
 body {
     font-family: "Work Sans", sans-serif;
+    width: fit-content;
 }
 
 .container {
@@ -522,9 +523,9 @@ i#gem2 {
 .about .about-content .image::after {
     content: "";
     position: absolute;
-    right: -125px;
+    right: -150px;
     top: -40px;
-    width: 81px;
+    width: 120px;
     height: 250px;
     border-left: 80px solid var(--main-color);
     border-bottom: 80px solid var(--main-color);
@@ -550,8 +551,8 @@ i#gem2 {
 
 .about .about-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(390px,1fr));
-    grid-template-rows: repeat(auto-fill,minmax(390px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    grid-template-rows: repeat(auto-fill,minmax(400px,1fr));
 }
 
 .about .about-content .text {
