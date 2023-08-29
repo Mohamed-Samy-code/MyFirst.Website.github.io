@@ -522,9 +522,9 @@ i#gem2 {
 .about .about-content .image::after {
     content: "";
     position: absolute;
-    right: -150px;
+    right: -125px;
     top: -40px;
-    width: 120px;
+    width: 81px;
     height: 250px;
     border-left: 80px solid var(--main-color);
     border-bottom: 80px solid var(--main-color);
