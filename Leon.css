@@ -550,8 +550,8 @@ i#gem2 {
 
 .about .about-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
-    grid-template-rows: repeat(auto-fill,minmax(400px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(1fr,390px));
+    grid-template-rows: repeat(auto-fill,minmax(1fr,390px));
 }
 
 .about .about-content .text {
