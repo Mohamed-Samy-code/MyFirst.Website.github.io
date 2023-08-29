@@ -214,7 +214,7 @@ i#gem2 {
 .landing {
     width: 100%;
     height: calc(100vh - 64px);
-    min-width: 400px;
+    min-width: 390px;
 }
 .landing img {
     position: absolute;
